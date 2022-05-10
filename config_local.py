@@ -1,0 +1,5 @@
+from config import *
+
+SERVER_MODE = False
+MASTER_PASSWORD_REQUIRED = False
+UPGRADE_CHECK_ENABLED = False

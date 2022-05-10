@@ -1,0 +1,19 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "$POSTGRES_HOST",
+            "Group": "Servers",
+            "Host": "$POSTGRES_HOST",
+            "Port": $POSTGRES_PORT,
+            "MaintenanceDB": "postgres",
+            "Username": "$POSTGRES_USER",
+            "PassFile": "/tmp/pass.pgpass",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        }
+    }
+}
