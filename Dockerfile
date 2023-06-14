@@ -1,4 +1,4 @@
-FROM dpage/pgadmin4:latest
+FROM dpage/pgadmin4:7.3
 
 USER root
 RUN apk add gettext

@@ -26,3 +26,8 @@ services:
 ```
 
 Then simply navigate to http://localhost:8081. No login required, ne setup required, your db is availaible and ready to be used.
+
+### Build
+docker build . -t newlogic42/pgadmin4
+docker login
+docker push newlogic42/pgadmin4
